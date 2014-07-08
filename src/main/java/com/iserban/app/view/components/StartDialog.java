@@ -10,9 +10,11 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
+/**
+ * Start dialog where Game Mode is selected.
+ */
 public class StartDialog extends JDialog {
     private GameView view;
-    private JPanel contentPane;
     private JButton buttonOK;
     private JButton buttonQuit;
     private JComboBox comboBoxGameMode;

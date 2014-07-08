@@ -14,7 +14,7 @@ import java.awt.*;
 import java.util.Observable;
 
 /**
- * Concrete view for Game.
+ * View for Rock, Paper, Scissors game.
  */
 public class RPSGameView implements GameView {
     private Controller controller;

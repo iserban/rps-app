@@ -5,6 +5,9 @@ import com.iserban.app.view.GameView;
 
 import java.util.Observable;
 
+/**
+ * Mock view class used in tests.
+ */
 public class MockView implements GameView {
     @Override
     public Controller getController() {

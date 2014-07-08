@@ -10,6 +10,9 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
+/**
+ * Dialog for selecting game move.
+ */
 public class SelectMoveDialog extends JDialog {
     private GameView view;
     private JButton buttonOK;

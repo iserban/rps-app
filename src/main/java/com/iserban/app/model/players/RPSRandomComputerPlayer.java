@@ -8,8 +8,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * Random computer player class: player will select the next move at random and will not use the move the opponent
- * makes in any way.
+ * Random computer player class.
  */
 public class RPSRandomComputerPlayer extends Player {
 

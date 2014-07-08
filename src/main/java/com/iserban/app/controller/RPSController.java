@@ -9,6 +9,9 @@ import com.iserban.app.view.GameView;
 
 import java.util.List;
 
+/**
+ * Controller for Rock, Paper, Scissors game.
+ */
 public class RPSController implements Controller {
     private Game game; // model
     private GameView gameView; // view
